@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   color: #000000bf;
+  margin: 0;
 }
 
 main {
@@ -17,4 +18,28 @@ h2, h3, h4, p, ul {
 
 a {
   color: #000000bf;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 482px;
+  gap: 10px;
+  border: 2px dotted;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#download-curriculum {
+  width: 140px;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: 1px solid;
+  border-radius: 5px; cursor: pointer;
+}
+
+#download-curriculum:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
